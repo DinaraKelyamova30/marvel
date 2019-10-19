@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url(Inconsolata/Inconsolata-Regular.ttf)
+}
+
+
+@font-face {
+    font-family: 'Inconsolata-Bold';
+    src: url(Inconsolata/Inconsolata-Bold.ttf)
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+    padding: 10px;
+    background-color: #eaeaea;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.conteiner {
+    width: 50%;
+    padding: 30px 50px;
+}
+
+.img {
+    width: 100%;
+    border: 4px solid #eaeaea;
+    margin-bottom: 35px;
+}
+
+.smallBanner {
+    width: 120px;
+    border: 3px solid #eaeaea;
+}
+
+.small {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+div h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(75, 75, 75);
+}
+
+hr {
+    height: 4px;
+    background-color: red;
+    margin: 7px 0;
+}
+
+p {
+    font-family: 'Inconsolata-Bold';
+    font-size: 13px;
+    text-emphasis: 10px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(75, 75, 75);
+    text-align: justify;
+}
